@@ -14,8 +14,6 @@
   cursor: pointer;
 }
 
-
-
 .card-content {
   --padding: 1.5em;
   padding: var(--padding);
@@ -25,7 +23,7 @@
 }
 
 .card:hover .card-content, .card:focus-within .card-content{
-  transform: translateY(0%);
+  transform: translateY(2%);
   transition-delay: 500ms;
 }
 

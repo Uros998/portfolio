@@ -13,7 +13,7 @@ const Loading = () => (
                          Welcome
                     </li>
                     <li className='content__container__list__item'>
-                         Uroš Milovanoić
+                         Uroš Milovanović
                     </li>
                 </ul>
 

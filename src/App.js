@@ -14,6 +14,7 @@ function App() {
         }, 5500)
     }, [])
 
+
     return (
         <main>
             {
@@ -29,8 +30,6 @@ function App() {
                     </Routes>
                 )
             }
-
-
         </main>
     );
 }

@@ -11,14 +11,6 @@ import ProjectCard from "../../component/project-card/project-card.component";
 
 const cards = [
     {
-        title: 'IST Working Hours',
-        body: '  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum fugiat harum ipsa maiores\n' +
-            ' perspiciatis praesentium provident quam quia reiciendis r   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum fugiat harum ipsa maiores\n' +
-            ' perspiciatis praesentium provident quam quia reiciendis rem!',
-        image: ISTHoursImage,
-        path: '/ist-hours'
-    },
-    {
         title: 'Metropolitan Isum',
         body: '  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum fugiat harum ipsa maiores\n' +
             ' perspiciatis praesentium provident quam quia reiciendis r   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum fugiat harum ipsa maiores\n' +
@@ -34,7 +26,6 @@ const cards = [
         image: ISTHoursImage,
         path: '/ist-hours'
     }
-
 ];
 
 const HomePage = () => (
