@@ -17,13 +17,15 @@
 .homepage-text-box {
   color: #ffffff;
   position: absolute;
-  bottom: 1em;
+  text-align: right;
+  bottom: 20em;
   left: 5%;
+  right: 63em;
 }
 
 .homepage-text-box p {
   font-size: 50px;
-  font-weight: 600;
+  font-weight: 100;
   margin: 0;
 }
 
@@ -48,7 +50,6 @@
 .homepage-text-box h3 {
   font-size: 30px;
   font-weight: 100;
-  width: 70%;
   letter-spacing: 5px;
   margin-top: 0;
 }
@@ -74,19 +75,18 @@
 .project-homepage {
   width: 100%;
   min-height: 100vh;
-  line-height: 1.6;
-  margin-top: 10em;
-  place-items: center;
+  margin-top: 5em;
   background: black;
 
 
-  h1{
+  h2 {
     color: white;
-    padding-left: 10%;
+    padding-left: 5%;
+    font-weight: 400;
+    letter-spacing: 6px;
   }
 
 }
-
 
 
 
