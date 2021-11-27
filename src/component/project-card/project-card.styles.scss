@@ -1,30 +1,72 @@
 //$img form"../../assets/iusm.png";
 
 .card {
-  width: 60%;
-  height: 700px;
-  margin: 3em 0 ;
-  text-align: center;
-  background-size: cover;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url("../../assets/iusm.png");
+  width: 48%;
+  display: inline-block;
+  height: 500px;
+  margin: 1% 1%;
+  overflow: hidden;
+  transition: transform 500ms ease;
 
-
-  h1 {
-    font-weight: 400;
-    font-size: 50px;
-    margin-top: 5em;
-    color: #c9d6df;
+ &:hover {
+    transform: scale(1.02);
+    cursor: pointer;
   }
 
-  h3 {
-    color: #c9d6df;
+  .card-image {
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    text-align: center;
+    background-size: cover;
+
   }
 
-  p {
-    color: #c9d6df;
+  .card-image:hover .card-body{
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+
   }
 
+
+
+  .card-body {
+    float: left;
+    width: 100%;
+    height: 100%;
+    background: black;
+    text-align: center;
+    display: inline-block;
+    visibility: visible;
+    opacity: 0;
+    transition: visibility 0s linear 0.33s, opacity 0.33s linear;
+
+
+    h1 {
+      padding-top: 2em;
+      font-weight: 400;
+      font-size: 70px;
+      color: white;
+      margin-bottom: 0;
+      letter-spacing: 3px;
+    }
+
+    h3 {
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    p {
+      color: rgba(255, 255, 255, 0.63);
+      font-weight: 100;
+      font-size: 16px;
+      line-height: 1.5em;
+      letter-spacing: 0.2em;
+
+    }
+  }
 }
+
 
 
 //.card {
