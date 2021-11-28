@@ -5,6 +5,7 @@ import Instagram from '../../assets/instagram.png';
 import github from "../../assets/github.png";
 import linkedin from "../../assets/linkedin.png";
 import IsumImage from "../../assets/mockup/isum-mockup.png";
+import Website from "../../assets/mockup/website-mockup-psd.jpg";
 import IST from "../../assets/mockup/v992-02-mockup_2.jpg";
 import ProjectCard from "../../component/project-card/project-card.component";
 import Footer from "../../component/footer/footer.component";
@@ -18,32 +19,33 @@ const cards = [
         technology: 'Angular and Spring',
         image: IsumImage,
         path: '/isum',
-        side: 'left'
+        // side: 'left'
     },
     {
         title: 'IST Working Hours',
         body: '',
-        technology: 'Angular and Spring',
+        technology: 'Angular & Spring',
         image: IST,
         path: '/ist-hours',
-        side: 'right'
+        // side: 'right'
     },
     {
-        title: 'ISUM',
+        title: 'Websites',
         body: '',
-        technology: 'Angular and Spring',
-        image: IST,
+        technology: 'React',
+        image: Website,
         path: '/isum',
-        side: 'left'
+        // side: 'left'
     },
-    {
-        title: 'IST Working Hours',
-        body: '',
-        technology: 'Angular and Spring',
-        image: IsumImage,
-        path: '/ist-hours',
-        side: 'right'
-    },
+    // {
+    //     title: 'IST Working Hours',
+    //     body: '',
+    //     technology: 'Angular and Spring',
+    //     image: IsumImage,
+    //     path: '/ist-hours',
+    //     // side: 'right'
+    // },
+
 ];
 
 const HomePage = () => {
@@ -63,7 +65,7 @@ const HomePage = () => {
             <div className="container">
                 <Header/>
                 <div className='homepage-text-box'>
-                    <p>I am</p>
+                    <p>I'm</p>
                     <h1>UROŠ</h1>
                     <h3>A software engineering student, currently a web systems developer.</h3>
                 </div>
