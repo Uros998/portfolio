@@ -37,14 +37,14 @@ const cards = [
         path: '/isum',
         // side: 'left'
     },
-    // {
-    //     title: 'IST Working Hours',
-    //     body: '',
-    //     technology: 'Angular and Spring',
-    //     image: IsumImage,
-    //     path: '/ist-hours',
-    //     // side: 'right'
-    // },
+    {
+        title: 'IST Working Hours',
+        body: '',
+        technology: 'Angular and Spring',
+        image: IsumImage,
+        path: '/ist-hours',
+        // side: 'right'
+    },
 
 ];
 
@@ -71,7 +71,6 @@ const HomePage = () => {
                 </div>
 
                 <div className="social-icons">
-
                     <a className='social-icon' href='https://github.com/Uros998'><img src={github}/></a>
                     <a className='social-icon' href='https://www.instagram.com/uros_milovanovic/'><img src={Instagram}/></a>
                     <a className='social-icon' href='https://www.instagram.com/uros_milovanovic/'><img src={linkedin}/></a>
