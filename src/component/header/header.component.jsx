@@ -12,9 +12,8 @@ const Header = () => {
                 </Link>
                 <ul className='options'>
                     <li><Link className='option'   to='/'>Home</Link></li>
-                    <li><Link className='option' to='/project'>Project</Link></li>
                     <li><Link className='option' to='/about'>About</Link></li>
-                    <li><Link className='option' to='/contact'>Contact</Link></li>
+                    <li><Link className='option' to='/contact'>Resume</Link></li>
                 </ul>
             </nav>
         </div>

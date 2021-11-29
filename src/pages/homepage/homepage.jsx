@@ -4,7 +4,7 @@ import Header from "../../component/header/header.component";
 import Instagram from '../../assets/instagram.png';
 import github from "../../assets/github.png";
 import linkedin from "../../assets/linkedin.png";
-import IsumImage from "../../assets/mockup/isum-mockup.png";
+import IsumImage from "../../assets/mockup/isum-mockup-1.png";
 import Website from "../../assets/mockup/website-mockup-psd.jpg";
 import IST from "../../assets/mockup/v992-02-mockup_2.jpg";
 import ProjectCard from "../../component/project-card/project-card.component";
@@ -37,14 +37,14 @@ const cards = [
         path: '/isum',
         // side: 'left'
     },
-    {
-        title: 'IST Working Hours',
-        body: '',
-        technology: 'Angular and Spring',
-        image: IsumImage,
-        path: '/ist-hours',
-        // side: 'right'
-    },
+    // {
+    //     title: 'IST Working Hours',
+    //     body: '',
+    //     technology: 'Angular and Spring',
+    //     image: IsumImage,
+    //     path: '/ist-hours',
+    //     // side: 'right'
+    // },
 
 ];
 
