@@ -38,6 +38,13 @@
 
   }
 
+  .border {
+    width: 0px;
+    margin: 25px 0;
+    height: 70px;
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+  }
+
   .isum-container {
     width: 80%;
     height: 100vh;
@@ -52,15 +59,6 @@
       .info {
         display: inline-block;
         padding: 1em 6em;
-
-        &:first-child {
-          border-right: 1px solid rgba(0, 0, 0, 0.2);
-        }
-
-        &:last-child {
-          border-left: 1px solid rgba(0, 0, 0, 0.2);
-        }
-
 
         h2 {
           font-weight: 600;
