@@ -16,7 +16,7 @@ const cards = [
     {
         title: 'ISUM',
         body: '',
-        technology: 'Angular and Spring',
+        technology: 'Angular & Spring',
         image: IsumImage,
         path: '/isum',
         // side: 'left'
@@ -50,6 +50,11 @@ const cards = [
 
 const HomePage = () => {
 
+    useEffect(() => {
+        window.scrollTo({top: 0});
+    }, [])
+
+
     // const [showScroll, setShowScroll] = useState(true);
     // hidden={!showScroll}
 
@@ -80,7 +85,7 @@ const HomePage = () => {
                 <ScrollDown/>
             </div>
             <div className="project-homepage">
-                <h2>These Are My Projects</h2>
+                {/*<h2>These Are My Projects</h2>*/}
                 <div className="cards">
                     {cards.map(c => <ProjectCard {...c}  />)}
                 </div>

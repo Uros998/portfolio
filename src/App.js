@@ -2,7 +2,7 @@ import './App.scss';
 import {Route, Routes,} from "react-router-dom";
 import HomePage from "./pages/homepage/homepage";
 import {useEffect, useState} from "react";
-import Loading from "./component/loading/loading.component";
+// import Loading from "./component/loading/loading.component";
 import IsumPage from "./pages/isum-page/isum-page.component";
 
 function App() {
