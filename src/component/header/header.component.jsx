@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import './header.styles.scss';
-import {Link} from 'react-router-dom';
+import {Link, NavLink} from 'react-router-dom';
 
 const Header = () => {
 
@@ -19,9 +19,9 @@ const Header = () => {
                     <p className="logo-txt">U|M</p>
                 </Link>
                 <ul className='options'>
-                    <li><Link className='option' to='/'>Home</Link></li>
-                    <li><Link className='option' to='/about'>About</Link></li>
-                    <li><Link className='option' to='/contact'>Resume</Link></li>
+                    <li><NavLink activeClassName="selected" className='option' to='/'>Home</NavLink></li>
+                    <li><NavLink activeClassName="selected" className='option' to='/about'>About</NavLink></li>
+                    <li><NavLink activeClassName="selected" className='option' to='/contact'>Resume</NavLink></li>
                 </ul>
             </nav>
         </div>

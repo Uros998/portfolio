@@ -11,7 +11,9 @@
       width: 100%;
       height: 100%;
       padding-top: 100px;
-      background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets/mockup/isum-mockup-page.png") fixed;
+      background: url("../../assets/mockup/isum-mockup-page-v4.png");
+      background-size: cover;
+      background-position: center;
 
       .isum-title {
         color: white;
@@ -21,11 +23,11 @@
           font-weight: 600;
           font-size: 220px;
           padding-top: 8%;
-          margin: 0 2%;
+          margin: 0 4%;
         }
 
         h5 {
-          margin: 0 4.5%;
+          margin: 0 7%;
           font-size: 20px;
           font-weight: 200;
           letter-spacing: 2px;
@@ -133,4 +135,13 @@
       }
     }
   }
+
+  .isum-screen {
+
+    img {
+      width: 100% ;
+    }
+
+  }
+
 }

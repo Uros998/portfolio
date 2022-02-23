@@ -1,0 +1,152 @@
+.ist {
+  background: white;
+
+
+  .ist-image {
+    text-align: left;
+    color: black;
+    width: 100%;
+    height: 80vh;
+
+    .img-ist {
+      width: 100%;
+      height: 100%;
+      padding-top: 100px;
+      background: url("../../assets/mockup/ist-page-mockup.png");
+      background-size: cover;
+      background-position: center;
+
+      .ist-title {
+        color: white;
+        text-align: right;
+
+        h2 {
+          letter-spacing: 20px;
+          font-weight: 600;
+          font-size: 220px;
+          padding-top: 8%;
+          margin: 0 12%;
+        }
+
+        h5 {
+          font-size: 20px;
+          font-weight: 200;
+          letter-spacing: 7px;
+          margin: 0 17%;
+        }
+      }
+    }
+  }
+
+  .border {
+    width: 0;
+    margin: 25px 0;
+    height: 70px;
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .ist-container {
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    margin: 100px auto;
+    text-align: left;
+
+    .ist-info {
+      justify-content: center;
+      display: flex;
+      margin: 0 auto;
+
+      .info {
+        display: inline-block;
+        padding: 1em 6em;
+
+        h2 {
+          font-weight: 600;
+          font-size: 20px;
+        }
+
+        p {
+          font-weight: 300;
+          font-size: 15px;
+        }
+      }
+
+    }
+
+    .ist-overview {
+      display: flex;
+      margin: 10em 0 0 0;
+
+      h2 {
+        display: inline-block;
+        width: 25%;
+        font-size: 50px;
+        letter-spacing: 5px;
+        margin: 0 0 0 2em;
+      }
+
+      p {
+        display: inline-block;
+        width: 40%;
+        margin: 0 auto;
+        letter-spacing: 0.5px;
+        line-height: 30px;
+      }
+    }
+
+    .ist-problems {
+      display: flex;
+      margin: 0;
+
+      h2 {
+        display: inline-block;
+        width: 25%;
+        font-size: 50px;
+        letter-spacing: 5px;
+        margin: 0 0 0 2em;
+      }
+
+      p {
+        display: inline-block;
+        width: 40%;
+        margin: 0 auto;
+        letter-spacing: 0.5px;
+        line-height: 30px;
+      }
+    }
+
+    .ist-solution {
+      display: flex;
+      margin: 10em 0 0 0;
+
+      h2 {
+        display: inline-block;
+        width: 25%;
+        font-size: 50px;
+        letter-spacing: 5px;
+        margin: 0 0 0 2em;
+      }
+
+      p {
+        display: inline-block;
+        width: 40%;
+        margin: 0 auto;
+        letter-spacing: 0.5px;
+        line-height: 30px;
+      }
+    }
+
+  }
+
+  .ist-mock-up {
+
+    img {
+      width: 100%;
+    }
+  }
+
+}
+
+
+

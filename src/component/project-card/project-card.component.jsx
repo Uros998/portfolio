@@ -9,7 +9,6 @@ const ProjectCard = (props) => {
     // style={{backgroundImage: `url(${props.image})`}}
 
     const style = {
-        // float: props.side,
         backgroundImage: `url(${props.image})`
     }
 

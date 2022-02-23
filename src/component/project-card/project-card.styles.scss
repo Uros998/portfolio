@@ -30,13 +30,11 @@
 
   }
 
-
-
   .card-body {
     float: left;
     width: 100%;
     height: 100%;
-    background: black;
+    background: rgba(0, 0, 0, 0.9);
     text-align: center;
     display: inline-block;
     visibility: visible;
@@ -58,7 +56,7 @@
     }
 
     p {
-      color: rgba(255, 255, 255, 0.63);
+      color: #f0a500;
       font-weight: 100;
       font-size: 16px;
       line-height: 1.5em;

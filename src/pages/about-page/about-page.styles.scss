@@ -1,0 +1,72 @@
+.about-content {
+  width: 100%;
+  height: auto;
+  padding: 10em 0 10em 0;
+  display: flex;
+
+  .about-me-info {
+    width: 45%;
+    color: white;
+
+    .about-title {
+      margin: 5em 0 5em 10%;
+
+      h1 {
+        font-size: 30px;
+        font-weight: 600;
+      }
+
+      .name {
+        color: #f0a500;
+        //font-weight: 600;
+      }
+    }
+
+    .about-text {
+      margin: 0 10%;
+
+      p {
+        line-height: 40px;
+        letter-spacing: 0.5px;
+        font-size: 25px;
+        font-weight: 100;
+      }
+    }
+
+    .about-social-icons {
+      display: flex;
+      padding: 0 0 0 10%;
+    }
+
+    .about-social-icon img {
+      width: 25px;
+      margin: 25px 5px;
+      padding-right: 20px;
+    }
+
+
+  }
+
+}
+
+.about-image {
+  width: 45%;
+  text-align: center;
+
+  img {
+    width: 65%;
+    height: auto;
+    padding-left: 20%;
+  }
+}
+
+.about-info {
+  display: flex;
+  color: white;
+  justify-content: center;
+
+  .info {
+    margin: 2em;
+  }
+}
+

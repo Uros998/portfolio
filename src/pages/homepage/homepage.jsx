@@ -6,7 +6,7 @@ import github from "../../assets/github.png";
 import linkedin from "../../assets/linkedin.png";
 import IsumImage from "../../assets/mockup/isum-mockup-1.png";
 import Website from "../../assets/mockup/website-mockup-psd.jpg";
-import IST from "../../assets/mockup/v992-02-mockup_2.jpg";
+import IST from "../../assets/mockup/IST-card.png";
 import ProjectCard from "../../component/project-card/project-card.component";
 import Footer from "../../component/footer/footer.component";
 import ScrollDown from "../../component/scroll-down/scroll-down.component";
@@ -37,6 +37,8 @@ const cards = [
         path: '/isum',
         // side: 'left'
     },
+
+
     // {
     //     title: 'IST Working Hours',
     //     body: '',
