@@ -22,7 +22,6 @@ const ProjectCard = (props) => {
                     <p>{props.technology}</p>
                 </div>
             </div>
-
         </div>
 
         // {/*<div className="card-content">*/}

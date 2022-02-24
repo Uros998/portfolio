@@ -1,11 +1,21 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./ist-page.styles.scss";
 import Header from "../../component/header/header.component";
 import Footer from "../../component/footer/footer.component";
 import IstMockUp from "../../assets/mockup/ist-mock-up-screens.png";
+import OtherProjects from "../../component/other-projects/other-projects.component";
+
+
 
 
 const IstPage = () => {
+
+    useEffect(() => {
+        window.scrollTo({top: 0});
+    }, [])
+
+
+
 
 
     return (
@@ -65,6 +75,7 @@ const IstPage = () => {
                             praesentium saepe sequi tempora vel voluptatum!</p>
                     </div>
                 </div>
+                <OtherProjects />
                 <Footer/>
             </div>
         </>

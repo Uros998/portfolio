@@ -1,0 +1,26 @@
+.other-projects {
+  background-color: rgb(241, 173, 57);
+  padding: 3em;
+
+
+  .other-projects-title {
+    text-align: center;
+
+    h2 {
+      font-size: 35px;
+      letter-spacing: 6px;
+      font-weight: 700;
+      color: black;
+      margin: 0.6em;
+
+
+    }
+  }
+
+  .other-cards-project {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+  }
+}
