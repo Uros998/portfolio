@@ -7,20 +7,18 @@
     text-align: center;
 
     h2 {
-      font-size: 35px;
-      letter-spacing: 6px;
-      font-weight: 700;
+      font-size: 28px;
+      letter-spacing: 2px;
+      font-weight: 400;
       color: black;
-      margin: 0.6em;
-
-
+      margin: 1.5em;
     }
   }
 
   .other-cards-project {
     display: flex;
     justify-content: center;
-    margin: 0 auto;
+    margin: 3em auto;
     width: 80%;
   }
 }

@@ -38,7 +38,7 @@ const OtherProjects = () => {
     return (
         <div className="other-projects">
             <div className="other-projects-title">
-                <h2>- OTHER PROJECTS -</h2>
+                <h2>Thanks for reading, feel free to check out my other projects!</h2>
             </div>
             <div className="other-cards-project">
                 {cards.map(c => <OtherProjectsCards {...c}  />)}

@@ -3,9 +3,8 @@ import "./ist-page.styles.scss";
 import Header from "../../component/header/header.component";
 import Footer from "../../component/footer/footer.component";
 import IstMockUp from "../../assets/mockup/ist-mock-up-screens.png";
+import IstBackgroundImg from "../../assets/mockup/ist-backgroun-img.png";
 import OtherProjects from "../../component/other-projects/other-projects.component";
-
-
 
 
 const IstPage = () => {
@@ -13,9 +12,6 @@ const IstPage = () => {
     useEffect(() => {
         window.scrollTo({top: 0});
     }, [])
-
-
-
 
 
     return (
@@ -58,8 +54,26 @@ const IstPage = () => {
                             with the other two co-founders to bring it live to iOS and Android</p>
                     </div>
                 </div>
-                <div className="ist-mock-up">
-                    <img src={IstMockUp}/>
+                <div className="ist-background">
+                    <div className="ist-background-img">
+                        <img src={IstBackgroundImg}/>
+                    </div>
+                    <div className="ist-background-text">
+                        <h2>BACKGROUND</h2>
+                        <h3>Team Contribution</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores corporis
+                            delectus eveniet excepturi facilis, modi nemo odit placeat sit sunt tempora unde velit
+                            voluptas voluptatum! Beatae cumque deleniti dicta, ea error illum, ipsam nulla officiis
+                            perspiciatis porro provident quas, quo rem soluta tempora veniam voluptas? Consequatur eaque
+                            expedita molestiae!</p>
+
+                        <h3>My Contribution</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores corporis
+                            delectus eveniet excepturi facilis, modi nemo odit placeat sit sunt tempora unde velit
+                            voluptas voluptatum! Beatae cumque deleniti dicta, ea error illum, ipsam nulla officiis
+                            perspiciatis porro provident quas, quo rem soluta tempora veniam voluptas? Consequatur eaque
+                            expedita molestiae!</p>
+                    </div>
                 </div>
                 <div className="ist-container">
                     <div className="ist-problems">
@@ -80,7 +94,7 @@ const IstPage = () => {
                             praesentium saepe sequi tempora vel voluptatum!</p>
                     </div>
                 </div>
-                <OtherProjects />
+                <OtherProjects/>
                 <Footer/>
             </div>
         </>
