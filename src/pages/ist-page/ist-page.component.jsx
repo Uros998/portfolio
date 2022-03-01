@@ -68,6 +68,11 @@ const IstPage = () => {
                             cupiditate dolore dolores enim facere, fugit, hic id illum laudantium nesciunt, numquam
                             praesentium saepe sequi tempora vel voluptatum!</p>
                     </div>
+                </div>
+                <div className="ist-mock-up">
+                    <img src={IstMockUp}/>
+                </div>
+                <div className="ist-container">
                     <div className="ist-solution">
                         <h2>SOLUTION</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At atque consectetur consequatur
