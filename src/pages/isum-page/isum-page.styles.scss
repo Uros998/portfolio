@@ -11,7 +11,7 @@
       width: 100%;
       height: 100%;
       padding-top: 100px;
-      background: url("../../assets/mockup/isum-mockup-page-v5.png");
+      background: url("../../assets/mockup/isum-mockup-page-v6.png");
       background-size: cover;
       background-position: center;
 
@@ -135,6 +135,56 @@
       }
     }
   }
+
+
+  .isum-background {
+    width: 100%;
+    background-color: #0e0e0e;
+
+    .isum-background-img {
+      width:50%;
+      display: inline-block;
+      img {
+        width: 100%;
+      }
+    }
+
+    .isum-background-text {
+      width: 50%;
+      display: inline-block;
+      position: absolute;
+
+
+      h2 {
+        color: #f0a500;
+        font-size: 60px;
+        text-align: center;
+        margin: 1em 0 1em 0;
+        font-weight: 500;
+        letter-spacing: 15px;
+      }
+
+      h3 {
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 2px;
+      }
+
+      p {
+        margin: 0 10em 3em 10em;
+        color: white;
+        text-align: justify;
+        letter-spacing: 1px;
+        line-height: 30px;
+        font-weight: 100;
+      }
+
+    }
+
+  }
+
 
   .isum-screen {
 
