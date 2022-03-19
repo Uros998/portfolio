@@ -120,7 +120,7 @@ const HomePage = () => {
                 <div className="social-icons">
                     <a className='social-icon' href='https://github.com/Uros998'><img src={github}/></a>
                     <a className='social-icon' href='https://www.instagram.com/uros_milovanovic/'><img src={Instagram}/></a>
-                    <a className='social-icon' href='https://www.instagram.com/uros_milovanovic/'><img src={linkedin}/></a>
+                    <a className='social-icon' href='https://www.linkedin.com/in/uros-milovanovic-590712233/'><img src={linkedin}/></a>
                 </div>
             </div>
             <div className='scroll-down'>

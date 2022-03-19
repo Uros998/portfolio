@@ -95,7 +95,7 @@
 
     .isum-problems {
       display: flex;
-      margin: 10em 0 0 0;
+      margin: 5em 0 5em 0;
 
       h2 {
         display: inline-block;
@@ -116,7 +116,7 @@
 
     .isum-solution {
       display: flex;
-      margin: 10em 0 0 0;
+      margin: 5em 0 5em 0;
 
       h2 {
         display: inline-block;
@@ -156,7 +156,7 @@
 
 
       h2 {
-        color: #f0a500;
+        color: #9f032b;
         font-size: 60px;
         text-align: center;
         margin: 1em 0 1em 0;
@@ -185,12 +185,18 @@
 
   }
 
-
-  .isum-screen {
-
+  .isum-mock-up {
     img {
-      width: 100% ;
+      width: 100%;
     }
-
   }
+
+
+  //.isum-screen {
+  //
+  //  img {
+  //    width: 100% ;
+  //  }
+  //
+  //}
 }
