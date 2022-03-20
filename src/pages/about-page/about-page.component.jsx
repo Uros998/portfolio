@@ -71,12 +71,12 @@ const AboutPage = () => {
                             <div className="e-cards">
                                 <div className="e-card">
                                     <h1>December 2021 - Ongoing</h1>
-                                    <p>Web Systems Developer at <span>University of Metropolitan</span></p>
+                                    <p>Software Developer at <span>University of Metropolitan</span></p>
                                     <p>Full stack - Angular & Spring</p>
                                 </div>
                                 <div className="e-card">
                                     <h1>Avgust 2020 - December 2021</h1>
-                                    <p>Web Systems Developer at <span>University of Metropolitan</span></p>
+                                    <p>Software Developer at <span>University of Metropolitan</span></p>
                                     <p>Frontend - Angular</p>
                                 </div>
                             </div>
@@ -168,7 +168,13 @@ const AboutPage = () => {
                 </div>
                 <div className="about-info-container">
                     <div className="info-faculty">
-                        <h2>Faculty</h2>
+                        <div className="faculty-title">
+                            <div className="accent"/>
+                            <h2>Faculty</h2>
+                        </div>
+                        <div className="faculty-text">
+                            <p>Current student of software engineering at the Metropolitan University.</p>
+                        </div>
                     </div>
                 </div>
             </div>
