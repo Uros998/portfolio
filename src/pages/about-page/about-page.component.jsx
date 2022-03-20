@@ -9,6 +9,12 @@ import linkedin from "../../assets/linkedin.png";
 import Angular from "../../assets/logo/angular.png";
 import HtmlCss from "../../assets/logo/html-css.png";
 import Javascript from "../../assets/logo/javascript.png";
+import ReactLogo from "../../assets/logo/react.png";
+import Spring from "../../assets/logo/spring.png";
+import Java from "../../assets/logo/java.png";
+import Php from "../../assets/logo/php.png";
+import MqSql from "../../assets/logo/mysql.png";
+import Photoshop from "../../assets/logo/photoshop.png";
 
 
 const AboutPage = () => {
@@ -84,6 +90,9 @@ const AboutPage = () => {
                             <h2>My Skills</h2>
                             <div className="accent-1"/>
                         </div>
+                        <div className="skiills-sub-title">
+                            <p>The technologies I've been working on now</p>
+                        </div>
                         <div className="skills">
                             <div className="skill-left">
                                 <div className="skill">
@@ -91,7 +100,7 @@ const AboutPage = () => {
                                         <img src={Angular}/>
                                     </div>
                                     <div className="skill-title">
-                                        <h3>Angular <span>1YEARS</span></h3>
+                                        <h3>Angular <span>1 YEARS</span></h3>
                                     </div>
                                 </div>
                                 <div className="skill">
@@ -99,7 +108,7 @@ const AboutPage = () => {
                                         <img src={HtmlCss}/>
                                     </div>
                                     <div className="skill-title">
-                                        <h3>HTML/CSS <span>3YEARS</span></h3>
+                                        <h3>HTML / CSS <span>3 YEARS</span></h3>
                                     </div>
                                 </div>
                                 <div className="skill">
@@ -107,33 +116,50 @@ const AboutPage = () => {
                                         <img src={Javascript}/>
                                     </div>
                                     <div className="skill-title">
-                                        <h3>Javascript <span>2YEARS</span></h3>
+                                        <h3>Javascript <span>2 YEARS</span></h3>
                                     </div>
                                 </div>
+                                <div className="skill">
+                                    <div className="skill-img">
+                                        <img src={MqSql}/>
+                                    </div>
+                                    <div className="skill-title">
+                                        <h3>MySql <span>1 YEARS</span></h3>
+                                    </div>
+                                </div>
+
                             </div>
                             <div className="skill-right">
                                 <div className="skill">
                                     <div className="skill-img">
-                                        <img src={Angular}/>
+                                        <img src={ReactLogo}/>
                                     </div>
                                     <div className="skill-title">
-                                        <h3>Angular <span>1YEARS</span></h3>
+                                        <h3>React <span>6 MONTHS</span></h3>
                                     </div>
                                 </div>
                                 <div className="skill">
                                     <div className="skill-img">
-                                        <img src={Angular}/>
+                                        <img src={Spring}/>
                                     </div>
                                     <div className="skill-title">
-                                        <h3>Angular <span>1YEARS</span></h3>
+                                        <h3>Spring <span>3 MONTHS</span></h3>
                                     </div>
                                 </div>
                                 <div className="skill">
                                     <div className="skill-img">
-                                        <img src={Angular}/>
+                                        <img src={Java}/>
                                     </div>
                                     <div className="skill-title">
-                                        <h3>Angular <span>1YEARS</span></h3>
+                                        <h3>Java <span>3 YEARS</span></h3>
+                                    </div>
+                                </div>
+                                <div className="skill">
+                                    <div className="skill-img">
+                                        <img src={Photoshop}/>
+                                    </div>
+                                    <div className="skill-title">
+                                        <h3>Photoshop <span>5 MONTHS</span></h3>
                                     </div>
                                 </div>
                             </div>
