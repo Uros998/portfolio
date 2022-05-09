@@ -26,7 +26,6 @@
 
 }
 
-
 .social-icons-footer {
   letter-spacing: 1px;
 }
@@ -35,3 +34,40 @@
   width: 25px;
   margin: 25px 25px;
 }
+
+
+@media screen and (max-width: 1050px) {
+  .footer {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer {
+    h2 {
+      padding-top: 4em;
+      font-size: 30px;
+    }
+
+    p {
+      margin: 1em 2em;
+
+      a {
+        color: #f0a500;
+        text-decoration: none;
+      }
+    }
+  }
+
+  //.social-icons-footer {
+  //  letter-spacing: 1px;
+  //}
+  //
+  //.social-icon-footer img {
+  //  width: 25px;
+  //  margin: 25px 25px;
+  //}
+}
+
+
+

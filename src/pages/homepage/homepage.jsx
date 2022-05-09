@@ -11,47 +11,6 @@ import ProjectCard from "../../component/project-card/project-card.component";
 import Footer from "../../component/footer/footer.component";
 import ScrollDown from "../../component/scroll-down/scroll-down.component";
 
-
-function card()  {
-    const cards = [
-        {
-            title: 'ISUM',
-            body: '',
-            technology: 'Angular & Spring',
-            image: IsumImage,
-            path: '/isum',
-            // side: 'left'
-        },
-        {
-            title: 'IST Working Hours',
-            body: '',
-            technology: 'Angular & Spring',
-            image: IST,
-            path: '/ist-hours',
-            // side: 'right'
-        },
-        {
-            title: 'Websites',
-            body: '',
-            technology: 'React',
-            image: Website,
-            path: '/isum',
-            // side: 'left'
-        },
-
-
-        // {
-        //     title: 'IST Working Hours',
-        //     body: '',
-        //     technology: 'Angular and Spring',
-        //     image: IsumImage,
-        //     path: '/ist-hours',
-        //     // side: 'right'
-        // },
-
-    ];
-}
-
 const cards = [
     {
         title: 'ISUM',
@@ -77,17 +36,6 @@ const cards = [
         path: '/isum',
         // side: 'left'
     },
-
-
-    // {
-    //     title: 'IST Working Hours',
-    //     body: '',
-    //     technology: 'Angular and Spring',
-    //     image: IsumImage,
-    //     path: '/ist-hours',
-    //     // side: 'right'
-    // },
-
 ];
 
 const HomePage = () => {

@@ -1,5 +1,5 @@
 .other-projects {
-  background-color: rgb(241, 173, 57);
+  background-color: #d9d9d9;
   padding: 3em;
 
 
@@ -21,4 +21,26 @@
     margin: 3em auto;
     width: 80%;
   }
+}
+
+@media screen and (max-width: 1600px) {
+
+  .other-projects {
+    .other-cards-project {
+      width: 100%;
+    }
+  }
+}
+
+
+@media screen and (max-width: 1350px) {
+
+  .other-projects {
+    .other-projects-title {
+      h2 {
+        font-size: 20px;
+      }
+    }
+  }
+
 }

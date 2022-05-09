@@ -63,3 +63,35 @@
     }
   }
 }
+
+
+@media screen and (max-width: 1600px) {
+  .mini-card {
+    .mini-card-body {
+      background: rgba(0, 0, 0, 0.7);
+
+
+      h1 {
+        font-weight: 500;
+        font-size: 40px;
+        letter-spacing: 2px;
+      }
+
+      p {
+        font-weight: 300;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 1350px) {
+
+  .mini-card {
+    height: 180px;
+
+    .mini-card-image {
+      height: 180px;
+    }
+  }
+}
