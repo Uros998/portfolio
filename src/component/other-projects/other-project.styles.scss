@@ -44,3 +44,21 @@
   }
 
 }
+
+@media screen and (max-width: 900px) {
+  .other-projects {
+    padding: 2em;
+
+    .other-projects-title {
+      h2 {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .other-projects {
+    display: none;
+  }
+}

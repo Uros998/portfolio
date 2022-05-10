@@ -95,3 +95,26 @@
     }
   }
 }
+
+
+@media screen and (max-width: 900px) {
+  .mini-card {
+    height: 140px;
+
+    .mini-card-image {
+      height: 140px;
+    }
+
+    .mini-card-body {
+
+      h1 {
+        font-size: 20px;
+      }
+
+      p {
+        font-size: 11px;
+      }
+    }
+
+  }
+}

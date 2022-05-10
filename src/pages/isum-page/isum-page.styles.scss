@@ -340,7 +340,6 @@
           margin: 0 2em 1em 1em;
           line-height: 20px;
           font-size: 13px;
-          font-weight: 300;
         }
       }
     }
@@ -424,23 +423,324 @@
 }
 
 @media screen and (max-width: 900px) {
+  .isum {
+    .isum-image {
+      height: 55vh;
 
+      .img-isum {
+        .isum-title {
+
+          h2 {
+            font-size: 100px;
+          }
+
+          h5 {
+            margin: 0 2%;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+    .isum-container {
+      width: 90%;
+
+      .isum-info {
+        .info {
+          padding: 1em 2em;
+        }
+      }
+
+      .isum-overview {
+
+        h2 {
+          font-size: 30px;
+        }
+
+        p {
+          font-size: 13px;
+          letter-spacing: 0.1px;
+          line-height: 23px;
+        }
+      }
+
+
+      .isum-problems {
+
+        h2 {
+          font-size: 30px;
+        }
+
+        p {
+          font-size: 13px;
+          letter-spacing: 0.1px;
+          line-height: 23px;
+        }
+      }
+
+      .isum-solution {
+        h2 {
+          font-size: 30px;
+        }
+
+        p {
+          font-size: 13px;
+          letter-spacing: 0.1px;
+          line-height: 23px;
+        }
+      }
+
+    }
+
+    .isum-background {
+
+      .isum-background-text {
+
+        h2 {
+          font-size: 16px;
+        }
+
+        h3 {
+          font-size: 13px;
+        }
+
+        p {
+          font-size: 10px;
+          line-height: 16px;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 750px) {
+  .isum {
+    .isum-image {
+      height: 50vh;
 
+      .img-isum {
+        background-position: center;
+
+        .isum-title {
+          text-align: center;
+
+          h2 {
+            padding-top: 50%;
+          }
+        }
+      }
+    }
+
+    .isum-container {
+      width: 90%;
+
+      .isum-info {
+        .info {
+          padding: 1em 2em;
+
+          h2 {
+            font-size: 16px;
+          }
+
+          p {
+            font-size: 11px;
+            font-weight: 400;
+          }
+
+        }
+      }
+
+      .isum-overview {
+        display: block;
+        text-align: center;
+
+        h2 {
+          font-size: 40px;
+          margin: 0;
+          width: 100%;
+        }
+
+        p {
+          font-size: 15px;
+          text-align: justify;
+          letter-spacing: 0.4px;
+          margin: 2em auto;
+          width: 90%;
+        }
+      }
+
+
+      .isum-problems {
+        display: block;
+        text-align: center;
+
+        h2 {
+          font-size: 40px;
+          margin: 0;
+          width: 100%;
+        }
+
+        p {
+          font-size: 15px;
+          text-align: justify;
+          letter-spacing: 0.4px;
+          margin: 2em auto;
+          width: 90%;
+        }
+      }
+
+      .isum-solution {
+        display: block;
+        text-align: center;
+
+        h2 {
+          font-size: 40px;
+          margin: 0;
+          width: 100%;
+        }
+
+        p {
+          font-size: 15px;
+          text-align: justify;
+          letter-spacing: 0.4px;
+          margin: 2em auto;
+          width: 90%;
+        }
+      }
+
+    }
+
+    .isum-background {
+
+      .isum-background-img {
+        width: 50%;
+      }
+
+      .isum-background-text {
+        text-align: center;
+        width: 50%;
+
+        h2 {
+          font-size: 14px;
+          letter-spacing: 6px;
+        }
+
+        h3 {
+          font-size: 10px;
+        }
+
+        p {
+          font-size: 9px;
+          margin: 0 1em 0 0;
+          line-height: 10px;
+        }
+      }
+    }
+  }
 }
 
 
 @media screen and (max-width: 450px) {
-  .img-isum {
+  .isum {
 
-    .isum-title {
+    .isum-container {
 
-      h2 {
-        letter-spacing: 5px;
-        font-size: 100px;
-        padding-top: 115%;
+      .isum-info {
+        .info {
+          padding: 1em 1em;
+
+          h2 {
+            font-size: 14px;
+          }
+
+          p {
+            font-size: 10px;
+          }
+
+        }
+      }
+
+      .isum-overview {
+        display: block;
+        text-align: center;
+
+        h2 {
+          font-size: 40px;
+          margin: 0;
+          width: 100%;
+        }
+
+        p {
+          letter-spacing: 0.5px;
+          line-height: 20px;
+        }
+      }
+
+
+      .isum-problems {
+        display: block;
+        text-align: center;
+
+        h2 {
+          font-size: 40px;
+          margin: 0;
+          width: 100%;
+        }
+
+        p {
+          letter-spacing: 0.5px;
+          line-height: 20px;
+        }
+      }
+
+      .isum-solution {
+        display: block;
+        text-align: center;
+
+        h2 {
+          font-size: 40px;
+          margin: 0;
+          width: 100%;
+        }
+
+        p {
+          letter-spacing: 0.5px;
+          line-height: 20px;
+        }
+      }
+
+    }
+
+    .isum-background {
+      height: 130vh;
+
+      .isum-background-img {
+        width: 100%;
+        display: block;
+      }
+
+      .isum-background-text {
+        text-align: center;
+        width: 100%;
+        display: block;
+
+        h2 {
+          font-size: 30px;
+          letter-spacing: 5px;
+          margin: 1em 0;
+        }
+
+        h3 {
+          font-size: 16px;
+          margin: 1em 0;
+
+        }
+
+        p {
+          font-size: 17px;
+          margin: 2em 1em;
+          line-height: 22px;
+        }
       }
     }
   }

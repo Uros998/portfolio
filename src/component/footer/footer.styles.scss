@@ -42,6 +42,28 @@
   }
 }
 
+@media screen and (max-width: 750px) {
+  .footer {
+
+    h2 {
+      font-size: 30px;
+    }
+
+    p {
+      margin: 0 auto;
+      width: 80%;
+      font-size: 13px;
+    }
+
+    .social-icon-footer {
+      img {
+        margin: 60px 25px;
+      }
+    }
+  }
+}
+
+
 @media screen and (max-width: 450px) {
   .footer {
     h2 {
