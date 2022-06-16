@@ -763,7 +763,6 @@
 
 @media screen and (max-width: 750px) {
 
-
   .about-content {
     width: 100%;
     display: block;
@@ -944,4 +943,112 @@
 
 @media screen and (max-width: 450px) {
 
+  .about-info {
+    .about-info-container {
+      .info-experience {
+        height: 550px;
+
+        .experience-title {
+          display: block;
+          width: 100%;
+          margin-bottom: 5em;
+
+          h2 {
+            font-size: 35px;
+          }
+
+          p {
+            font-size: 14px;
+          }
+        }
+
+        .experience-cards {
+          .lines {
+            .line {
+              height: 140px;
+            }
+          }
+
+          .e-cards {
+            .e-card {
+              min-width: 230px;
+            }
+          }
+        }
+      }
+    }
+
+
+    .info-skills {
+      height: 1000px;
+
+      .info-skills-container {
+        .skills-title {
+
+          h2 {
+            font-size: 35px;
+            width: 60%;
+          }
+
+          .accent-1 {
+            width: 60px;
+          }
+
+        }
+
+        .skills {
+
+          .skill-left {
+            display: block;
+            width: 100%;
+
+            .skill {
+              .skill-img {
+                width: 20%;
+
+                img {
+                  width: 40px;
+                }
+              }
+
+              .skill-title {
+                width: 100%;
+
+
+                h3 {
+                  font-size: 17px;
+                }
+
+              }
+            }
+          }
+
+          .skill-right {
+            display: block;
+            width: 100%;
+            border-left: none;
+
+            .skill {
+
+              .skill-img {
+                width: 20%;
+
+                img {
+                  width: 40px;
+                }
+              }
+
+              .skill-title {
+                width: 100%;
+
+                h3 {
+                  font-size: 17px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
