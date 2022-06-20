@@ -122,7 +122,7 @@
 
 
   .container {
-    background-position: 370px;
+    background-position: 230px;
 
     .homepage-text-box {
       bottom: 16em;
@@ -135,13 +135,25 @@
 
     }
   }
+
+  .project-homepage {
+    .cards {
+      .card {
+        height: 400px;
+        .card-image {
+          height: 400px;
+        }
+      }
+    }
+  }
+
 }
 
 
 @media screen and (max-width: 1050px) {
 
   .container {
-    background-position: 270px;
+    background-position: 90px;
 
     .homepage-text-box {
       bottom: 16em;
@@ -161,13 +173,24 @@
 
     }
   }
+
+  .project-homepage {
+    .cards {
+      .card {
+        height: 300px;
+        .card-image {
+          height: 300px;
+        }
+      }
+    }
+  }
 }
 
 
 @media screen and (max-width: 900px) {
 
   .container {
-    background-position: 70px;
+    background-position: -50px;
 
     .homepage-text-box {
       bottom: 12em;
@@ -183,6 +206,17 @@
         font-size: 13px;
       }
 
+    }
+  }
+
+  .project-homepage {
+    .cards {
+      .card {
+        height: 250px;
+        .card-image {
+          height: 250px;
+        }
+      }
     }
   }
 }
