@@ -13,22 +13,31 @@ const Header = () => {
     }, []);
 
     return (
-        <div className="header">
-            <nav className={showScroll? "nav-black" : "nav-none"} >
-                <Link className='logo' to='/'>
-                    <p className="logo-txt">U|M</p>
-                </Link>
-                <button id="burger" className="open-main-nav">
-                    <span className="burger"/>
-                    <span className="burger"/>
-                </button>
-                <ul className='options'>
+        <nav className={showScroll ? "nav-black" : "nav-none"}>
+            <Link className='logo' to='/'>
+                <p className="logo-txt">U|M</p>
+            </Link>
+            <input type="checkbox" id="ham-menu"/>
+            <label htmlFor="ham-menu">
+                <div className="hide-des">
+                    <span className="menu-line"/>
+                    <span className="menu-line"/>
+                    <span className="menu-line"/>
+                    <span className="menu-line"/>
+                    <span className="menu-line"/>
+                    <span className="menu-line"/>
+                </div>
+
+            </label>
+            <div className="full-page-green"/>
+            <div className="ham-menu">
+                <ul className="centre-text bold-text options">
                     <li><NavLink activeClassName="selected" className='option' to='/'>Home</NavLink></li>
                     <li><NavLink activeClassName="selected" className='option' to='/about'>About</NavLink></li>
                     <li><NavLink activeClassName="selected" className='option' to='/contact'>Resume</NavLink></li>
                 </ul>
-            </nav>
-        </div>
+            </div>
+        </nav>
     )
 }
 

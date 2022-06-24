@@ -12,7 +12,6 @@ import Javascript from "../../assets/logo/javascript.png";
 import ReactLogo from "../../assets/logo/react.png";
 import Spring from "../../assets/logo/spring.png";
 import Java from "../../assets/logo/java.png";
-import Php from "../../assets/logo/php.png";
 import MqSql from "../../assets/logo/mysql.png";
 import Photoshop from "../../assets/logo/photoshop.png";
 

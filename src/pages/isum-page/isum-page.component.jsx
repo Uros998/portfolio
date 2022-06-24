@@ -1,10 +1,10 @@
 import React, {useEffect} from "react";
 import "./isum-page.styles.scss";
-import Header from "../../component/header/header.component";
 import Footer from "../../component/footer/footer.component";
 import OtherProjects from "../../component/other-projects/other-projects.component";
 import IsumBackgroundImg from "../../assets/mockup/isum-background-img.png";
 import IsumMockUp from "../../assets/mockup/isum-mock-up-screens-v4.png";
+import Header from "../../component/header/header.component";
 
 
 const IsumPage = () => {
