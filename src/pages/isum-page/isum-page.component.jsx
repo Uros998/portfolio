@@ -47,14 +47,12 @@ const IsumPage = () => {
                     </div>
                     <div className="isum-overview">
                         <h2>OVERVIEW</h2>
-                        <p>I co-founded this dügl with 2 other people, David and Josh, who helped develop the app.
-                            Dügl
-                            is a goal-setting app where you can track and share goals with your friends. I was
-                            responsible for UX/UI, branding, as well as business (marketing, customer development).
-                            As
-                            the Design and Product lead, I created the end-to-end user experience and branding,
-                            working
-                            with the other two co-founders to bring it live to iOS and Android</p>
+                        <p>Considering that the faculty has been working for many years, it had an old system that was
+                            made a long time ago. The system worked solidly but it was difficult to maintain it and add
+                            new things. The system was made with old technologies so that was a problem because the
+                            technology is advancing day by day. Therefore, the time has come to change that and create a
+                            new system.
+                        </p>
                     </div>
                 </div>
 
@@ -65,30 +63,23 @@ const IsumPage = () => {
                     <div className="isum-background-text">
                         <h2>BACKGROUND</h2>
                         <h3>Team Contribution</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores corporis
-                            delectus eveniet excepturi facilis, modi nemo odit placeat sit sunt tempora unde velit
-                            voluptas voluptatum! Beatae cumque deleniti dicta, ea error illum, ipsam nulla officiis
-                            perspiciatis porro provident quas, quo rem soluta tempora veniam voluptas? Consequatur
-                            eaque
-                            expedita molestiae!</p>
+                        <p>The team that worked on this system consisted of 8 students (scholarship holders). We were
+                            divided into frontend and backend developer. The team was new and during the development of
+                            the system, most students studied the technology in which the system was developed (Angular
+                            and Spring).</p>
 
                         <h3>My Contribution</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores corporis
-                            delectus eveniet excepturi facilis, modi nemo odit placeat sit sunt tempora unde velit
-                            voluptas voluptatum! Beatae cumque deleniti dicta, ea error illum, ipsam nulla officiis
-                            perspiciatis porro provident quas, quo rem soluta tempora veniam voluptas? Consequatur
-                            eaque
-                            expedita molestiae!</p>
+                        <p>My job on this project was frontend. I participated in developing the logic, connecting the
+                            service with the backend and designing the pages.</p>
                     </div>
                 </div>
                 <div className="isum-container">
 
                     <div className="isum-problems">
                         <h2>THE PROBLEMS</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At atque consectetur
-                            consequatur
-                            cupiditate dolore dolores enim facere, fugit, hic id illum laudantium nesciunt, numquam
-                            praesentium saepe sequi tempora vel voluptatum!</p>
+                        <p>The problem with the old system is that it was made in old technology. Also, the system is
+                            too patched up and it is difficult to maintain it. The problem with the old system is that
+                            it is almost impossible to add new things.</p>
                     </div>
 
                 </div>
@@ -99,13 +90,14 @@ const IsumPage = () => {
 
                     <div className="isum-solution">
                         <h2>SOLUTION</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At atque consectetur
-                            consequatur
-                            cupiditate dolore dolores enim facere, fugit, hic id illum laudantium nesciunt, numquam
-                            praesentium saepe sequi tempora vel voluptatum!</p>
+                        <p>
+
+                            The solution we came up with is to start the entire system from scratch. We had a good team
+                            divided into frontend and backend developers. Conceived how the system should function and
+                            started developing it.</p>
                     </div>
                 </div>
-                <OtherProjects />
+                <OtherProjects/>
                 <Footer/>
             </div>
         </>

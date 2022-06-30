@@ -47,11 +47,11 @@ const IstPage = () => {
                     </div>
                     <div className="ist-overview">
                         <h2>OVERVIEW</h2>
-                        <p>I co-founded this dügl with 2 other people, David and Josh, who helped develop the app. Dügl
-                            is a goal-setting app where you can track and share goals with your friends. I was
-                            responsible for UX/UI, branding, as well as business (marketing, customer development). As
-                            the Design and Product lead, I created the end-to-end user experience and branding, working
-                            with the other two co-founders to bring it live to iOS and Android</p>
+                        <p>As scholarship holders at the faculty, we pay off the faculty fees by working at the faculty.
+                            Each student has his own category, which has a certain price, which is calculated after the
+                            total number of hours worked. Those records were kept manually in Excel and on the computer,
+                            so we came up with the idea
+                            of creating an application.</p>
                     </div>
                 </div>
                 <div className="ist-background">
@@ -61,26 +61,26 @@ const IstPage = () => {
                     <div className="ist-background-text">
                         <h2>BACKGROUND</h2>
                         <h3>Team Contribution</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores corporis
-                            delectus eveniet excepturi facilis, modi nemo odit placeat sit sunt tempora unde velit
-                            voluptas voluptatum! Beatae cumque deleniti dicta, ea error illum, ipsam nulla officiis
-                            perspiciatis porro provident quas, quo rem soluta tempora veniam voluptas? Consequatur eaque
-                            expedita molestiae!</p>
+                        <p>
+                            The team that worked on the application consisted of 3 students. For the whole team, this
+                            was the first serious application they had worked on so far. That's why we all worked
+                            full-stack in order to decide what suits us better and what works best for us.</p>
 
                         <h3>My Contribution</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores corporis
-                            delectus eveniet excepturi facilis, modi nemo odit placeat sit sunt tempora unde velit
-                            voluptas voluptatum! Beatae cumque deleniti dicta, ea error illum, ipsam nulla officiis
-                            perspiciatis porro provident quas, quo rem soluta tempora veniam voluptas? Consequatur eaque
-                            expedita molestiae!</p>
+                        <p>This is my first serious application that I worked with two other students. We worked
+                            full-stack (Angular and Spring) on this application. My contribution was developing the
+                            logic, creating the design, connecting the service with the backend and writing certain
+                            services.
+                        </p>
                     </div>
                 </div>
                 <div className="ist-container">
                     <div className="ist-problems">
                         <h2>THE PROBLEMS</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At atque consectetur consequatur
-                            cupiditate dolore dolores enim facere, fugit, hic id illum laudantium nesciunt, numquam
-                            praesentium saepe sequi tempora vel voluptatum!</p>
+                        <p>The problem we had was that we kept records in excel and had to enter and calculate
+                            everything manually. Errors often occurred and it was difficult to keep records. we also did
+                            not always have insight into how much we had left to pay and how much we earned.
+                        </p>
                     </div>
                 </div>
                 <div className="ist-mock-up">
@@ -89,9 +89,10 @@ const IstPage = () => {
                 <div className="ist-container">
                     <div className="ist-solution">
                         <h2>SOLUTION</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At atque consectetur consequatur
-                            cupiditate dolore dolores enim facere, fugit, hic id illum laudantium nesciunt, numquam
-                            praesentium saepe sequi tempora vel voluptatum!</p>
+                        <p>We designed the application and thus solved all the problems we had before. The application
+                            was transparent and at any moment we could see how much we earned and how much we paid in
+                            school fees. Also, entering and reviewing time was simple and intuitive.
+                        </p>
                     </div>
                 </div>
                 <OtherProjects/>

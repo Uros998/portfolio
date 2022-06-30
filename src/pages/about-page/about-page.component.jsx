@@ -35,11 +35,11 @@ const AboutPage = () => {
                         <h1>I'm <span className="name">Uroš Milovanović</span></h1>
                     </div>
                     <div className="about-text">
-                        <p>I'm Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi culpa
-                            delectus deleniti dignissimos, dolor doloribus eaque, eligendi esse expedita harum impedit
-                            libero nemo perferendis qui sed totam voluptate. Amet aperiam at culpa earum esse impedit
-                            ipsam
-                            provident quo recusandae repellat!</p>
+                        <p>I'm a software engineer who likes novelty and fun. I look at work as a challenge through
+                            which I learn new things and improve myself. I am a very interesting person and in my
+                            company there is always fun and only positive energy. All my life I have been doing some
+                            kind of sport and I love to travel.
+                        </p>
                     </div>
                     <div className="about-social-icons">
                         <a className='about-social-icon' href='https://github.com/Uros998'><img src={github}/></a>
@@ -172,7 +172,15 @@ const AboutPage = () => {
                             <h2>Faculty</h2>
                         </div>
                         <div className="faculty-text">
-                            <p>Current student of software engineering at the Metropolitan University.</p>
+                            <p><span>This is my way.</span> It all started when I entered the faculty in 2019. I
+                                finished the first year on time and
+                                then successfully enrolled in the second year. Where I received an offer to join the
+                                team as a faculty scholar, which I was overjoyed and accepted the offer. After that, I
+                                finished the second year also on time and am currently a third year student. In addition
+                                to graduating from the faculty as an ordinary student, I have two years of work
+                                experience behind me. That experience helped me a lot to learn new technologies and how
+                                work in companies and work with clients works.
+                            </p>
                         </div>
                     </div>
                 </div>

@@ -317,11 +317,26 @@
       }
 
       .faculty-text {
-        width: 100%;
+        width: 90%;
+        margin: 3em auto;
+        text-align: center;
+
+        h2 {
+          margin: 1em auto;
+        }
 
         p {
+
+          span {
+            font-weight: 700;
+            color: #f0a500;
+          }
+          line-height: 35px;
+          font-size: 25px;
+          word-spacing: 5px;
+          letter-spacing: 1px;
           text-align: left;
-          margin: 8em auto;
+          margin: 3em auto;
         }
       }
     }
