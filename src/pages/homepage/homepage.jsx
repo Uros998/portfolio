@@ -10,6 +10,8 @@ import IST from "../../assets/mockup/IST-card.png";
 import ProjectCard from "../../component/project-card/project-card.component";
 import Footer from "../../component/footer/footer.component";
 import ScrollDown from "../../component/scroll-down/scroll-down.component";
+import "animate.css/animate.min.css";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const cards = [
     {
@@ -62,13 +64,16 @@ const HomePage = () => {
                 <div className='homepage-text-box'>
                     <p>I'm</p>
                     <h1>UROŠ</h1>
-                    <h3>A software engineering student, currently a web systems developer.</h3>
+                    <AnimationOnScroll animateIn='animation__animate animate__fadeInUp' animateOnce={true}>
+                        <h3>A software engineering student, currently a web systems developer.</h3>
+                    </AnimationOnScroll>
                 </div>
 
                 <div className="social-icons">
                     <a className='social-icon' href='https://github.com/Uros998'><img src={github}/></a>
                     <a className='social-icon' href='https://www.instagram.com/uros_milovanovic/'><img src={Instagram}/></a>
-                    <a className='social-icon' href='https://www.linkedin.com/in/uros-milovanovic-590712233/'><img src={linkedin}/></a>
+                    <a className='social-icon' href='https://www.linkedin.com/in/uros-milovanovic-590712233/'><img
+                        src={linkedin}/></a>
                 </div>
             </div>
             <div className='scroll-down'>
