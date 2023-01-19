@@ -12,28 +12,36 @@ const ProjectCard = (props) => {
         backgroundImage: `url(${props.image})`
     }
 
-
-    return (
-        <div className="card" onClick={() => navigate(props.path)}>
-            <div className="card-image" style={style}>
-                <div className="card-body">
-                    <h1>{props.title}</h1>
-                    <h3>{props.body}</h3>
-                    <p>{props.technology}</p>
+    if (props.routerLink) {
+        return (
+            <div className="card" onClick={() => navigate(props.path)}>
+                <div className="card-image" style={style}>
+                    <div className="card-body">
+                        <h1>{props.title}</h1>
+                        {/*<h3>{props.body}</h3>*/}
+                        <p>{props.technology}</p>
+                    </div>
                 </div>
             </div>
-        </div>
+        )
+    } else {
+        return (
+            <div className="card">
+                <a href={props.path}>
+                    <div className="card-image" style={style}>
+                        <div className="card-body">
+                            <h1>{props.title}</h1>
+                            <p>{props.drvo}</p>
+                            {/*<h3>{props.body}</h3>*/}
+                            <p>{props.technology}</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
 
-        // {/*<div className="card-content">*/}
-        // {/*    <h2 className="card-title">*/}
-        // {/*        {props.title}*/}
-        // {/*    </h2>*/}
-        // {/*    <p className="card-body">*/}
-        // {/*        {props.body}*/}
-        // {/*    </p>*/}
-        // {/*</div>*/}
+        )
+    }
 
-    )
 }
 
 export default ProjectCard;

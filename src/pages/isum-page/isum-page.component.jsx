@@ -5,7 +5,8 @@ import OtherProjects from "../../component/other-projects/other-projects.compone
 import IsumBackgroundImg from "../../assets/mockup/isum-background-img.png";
 import IsumMockUp from "../../assets/mockup/isum-mock-up-screens-v4.png";
 import Header from "../../component/header/header.component";
-
+// import "animate.css/animate.min.css";
+// import {AnimationOnScroll} from 'react-animation-on-scroll';
 
 const IsumPage = () => {
 
@@ -22,7 +23,9 @@ const IsumPage = () => {
                     <div className="img-isum">
                         <div className="isum-title">
                             <h2>ISUM</h2>
-                            <h5>Information System University Of Metropolitan</h5>
+                            {/*<AnimationOnScroll animateIn='animation__animate animate__fadeInUp' animateOnce={true}>*/}
+                                <h5>Information System University Of Metropolitan</h5>
+                            {/*</AnimationOnScroll>*/}
                         </div>
                     </div>
                 </div>
@@ -47,12 +50,17 @@ const IsumPage = () => {
                     </div>
                     <div className="isum-overview">
                         <h2>OVERVIEW</h2>
-                        <p>Considering that the faculty has been working for many years, it had an old system that was
-                            made a long time ago. The system worked solidly but it was difficult to maintain it and add
-                            new things. The system was made with old technologies so that was a problem because the
-                            technology is advancing day by day. Therefore, the time has come to change that and create a
-                            new system.
-                        </p>
+                        {/*<AnimationOnScroll animateIn='animation__animate animate__fadeInUp' animateOnce={true}>*/}
+                            <p>Considering that the faculty has been working for many years, it had an old system that
+                                was
+                                made a long time ago. The system worked solidly but it was difficult to maintain it and
+                                add
+                                new things. The system was made with old technologies so that was a problem because the
+                                technology is advancing day by day. Therefore, the time has come to change that and
+                                create a
+                                new system.
+                            </p>
+                        {/*</AnimationOnScroll>*/}
                     </div>
                 </div>
 
@@ -77,11 +85,14 @@ const IsumPage = () => {
 
                     <div className="isum-problems">
                         <h2>THE PROBLEMS</h2>
-                        <p>The problem with the old system is that it was made in old technology. Also, the system is
-                            too patched up and it is difficult to maintain it. The problem with the old system is that
-                            it is almost impossible to add new things.</p>
+                        {/*<AnimationOnScroll animateIn='animation__animate animate__fadeInUp' animateOnce={true}>*/}
+                            <p>The problem with the old system is that it was made in old technology. Also, the system
+                                is
+                                too patched up and it is difficult to maintain it. The problem with the old system is
+                                that
+                                it is almost impossible to add new things.</p>
+                        {/*</AnimationOnScroll>*/}
                     </div>
-
                 </div>
                 <div className="isum-mock-up">
                     <img src={IsumMockUp}/>
@@ -90,14 +101,17 @@ const IsumPage = () => {
 
                     <div className="isum-solution">
                         <h2>SOLUTION</h2>
-                        <p>
-
-                            The solution we came up with is to start the entire system from scratch. We had a good team
-                            divided into frontend and backend developers. Conceived how the system should function and
-                            started developing it.</p>
+                        {/*<AnimationOnScroll animateIn='animation__animate animate__fadeInUp' animateOnce={true}>*/}
+                            <p>
+                                The solution we came up with is to start the entire system from scratch. We had a good
+                                team
+                                divided into frontend and backend developers. Conceived how the system should function
+                                and
+                                started developing it.</p>
+                        {/*</AnimationOnScroll>*/}
                     </div>
                 </div>
-                <OtherProjects/>
+                {/*<OtherProjects/>*/}
                 <Footer/>
             </div>
         </>

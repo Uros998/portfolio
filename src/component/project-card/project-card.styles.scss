@@ -36,14 +36,18 @@
     height: 100%;
     background: rgba(0, 0, 0, 0.9);
     text-align: center;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    //display: inline-block;
     visibility: visible;
     opacity: 0;
     transition: visibility 0s linear 0.33s, opacity 0.33s linear;
 
 
     h1 {
-      padding-top: 2em;
+      padding-top: 0;
       font-weight: 400;
       font-size: 70px;
       color: white;

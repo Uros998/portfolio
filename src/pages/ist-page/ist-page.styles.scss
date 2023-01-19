@@ -76,10 +76,11 @@
 
     .ist-overview {
       display: flex;
+      justify-content: center;
       margin: 10em 0 0 0;
 
       h2 {
-        display: inline-block;
+        //display: inline-block;
         width: 25%;
         font-size: 50px;
         letter-spacing: 5px;
@@ -87,8 +88,8 @@
       }
 
       p {
-        display: inline-block;
-        width: 40%;
+        //display: inline-block;
+        width: 50%;
         margin: 0 auto;
         letter-spacing: 0.5px;
         line-height: 30px;
@@ -97,10 +98,11 @@
 
     .ist-problems {
       display: flex;
+      justify-content: center;
       margin: 5em 0 5em 0;
 
       h2 {
-        display: inline-block;
+        //display: inline-block;
         width: 25%;
         font-size: 50px;
         letter-spacing: 5px;
@@ -108,8 +110,8 @@
       }
 
       p {
-        display: inline-block;
-        width: 40%;
+        //display: inline-block;
+        width: 50%;
         margin: 0 auto;
         letter-spacing: 0.5px;
         line-height: 30px;
@@ -118,10 +120,11 @@
 
     .ist-solution {
       display: flex;
+      justify-content: center;
       margin: 5em 0 5em 0;
 
       h2 {
-        display: inline-block;
+        //display: inline-block;
         width: 25%;
         font-size: 50px;
         letter-spacing: 5px;
@@ -129,8 +132,8 @@
       }
 
       p {
-        display: inline-block;
-        width: 40%;
+        //display: inline-block;
+        width: 50%;
         margin: 0 auto;
         letter-spacing: 0.5px;
         line-height: 30px;

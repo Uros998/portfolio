@@ -5,7 +5,8 @@ import Footer from "../../component/footer/footer.component";
 import IstMockUp from "../../assets/mockup/ist-mock-up-screens.png";
 import IstBackgroundImg from "../../assets/mockup/ist-backgroun-img.png";
 import OtherProjects from "../../component/other-projects/other-projects.component";
-
+import "animate.css/animate.min.css";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const IstPage = () => {
 
@@ -22,7 +23,9 @@ const IstPage = () => {
                     <div className="img-ist">
                         <div className="ist-title">
                             <h2>IST</h2>
+                            {/*<AnimationOnScroll animateIn='animation__animate animate__fadeInUp' animateOnce={true}>*/}
                             <h5>Working Hours</h5>
+                            {/*</AnimationOnScroll>*/}
                         </div>
                     </div>
                 </div>
@@ -95,7 +98,7 @@ const IstPage = () => {
                         </p>
                     </div>
                 </div>
-                <OtherProjects/>
+                {/*<OtherProjects/>*/}
                 <Footer/>
             </div>
         </>

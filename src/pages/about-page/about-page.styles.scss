@@ -13,6 +13,18 @@
       margin: 5em 0 5em 10%;
 
       h1 {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        font-size: 30px;
+        font-weight: 600;
+
+        span {
+          padding: 0 0.5em;
+        }
+      }
+
+      h2 {
         font-size: 30px;
         font-weight: 600;
       }

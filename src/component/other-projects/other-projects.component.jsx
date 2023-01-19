@@ -2,7 +2,7 @@ import React from "react";
 import "./other-project.styles.scss";
 import IsumImage from "../../assets/mockup/isum-mockup-1.png";
 import IST from "../../assets/mockup/IST-card.png";
-import Website from "../../assets/mockup/website-mockup-psd.jpg";
+// import Website from "../../assets/mockup/website-mockup-psd.jpg";
 import OtherProjectsCards from "../other-projects-cards/other-projects-cards.component";
 
 
@@ -23,14 +23,6 @@ const OtherProjects = () => {
             image: IST,
             path: '/ist-hours',
             // side: 'right'
-        },
-        {
-            title: 'Websites',
-            body: '',
-            technology: 'React',
-            image: Website,
-            path: '/isum',
-            // side: 'left'
         }
     ];
 

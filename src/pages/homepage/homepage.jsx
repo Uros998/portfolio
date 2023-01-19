@@ -5,13 +5,14 @@ import Instagram from '../../assets/instagram.png';
 import github from "../../assets/github.png";
 import linkedin from "../../assets/linkedin.png";
 import IsumImage from "../../assets/mockup/isum-mockup-1.png";
-import Website from "../../assets/mockup/website-mockup-psd.jpg";
+import Etilen from "../../assets/mockup/etilen.png";
+import LibraLab from "../../assets/mockup/libra-lab.png";
+// import Bump from "../../assets/mockup/bump.png";
+import Sport from "../../assets/mockup/sport-analitik.psd";
 import IST from "../../assets/mockup/IST-card.png";
 import ProjectCard from "../../component/project-card/project-card.component";
 import Footer from "../../component/footer/footer.component";
 import ScrollDown from "../../component/scroll-down/scroll-down.component";
-import "animate.css/animate.min.css";
-import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const cards = [
     {
@@ -20,6 +21,7 @@ const cards = [
         technology: 'Angular & Spring',
         image: IsumImage,
         path: '/isum',
+        routerLink: true,
         // side: 'left'
     },
     {
@@ -28,14 +30,43 @@ const cards = [
         technology: 'Angular & Spring',
         image: IST,
         path: '/ist-hours',
+        routerLink: true,
         // side: 'right'
     },
     {
-        title: 'Websites',
+        title: 'Etilen',
         body: '',
         technology: 'React',
-        image: Website,
-        path: '/isum',
+        image: Etilen,
+        path: 'https://hemijskociscenjenis.com/',
+        routerLink: false,
+        // side: 'left'
+    },
+    {
+        title: 'Libra Lab',
+        body: '',
+        technology: 'React',
+        image: LibraLab,
+        path: 'https://www.libralab.rs/',
+        routerLink: false,
+        // side: 'left'
+    },
+    // {
+    //     title: 'Bump-Software',
+    //     body: '',
+    //     technology: 'React',
+    //     image: Bump,
+    //     path: 'https://bump-software.com/',
+    //     routerLink: false,
+    //     // side: 'left'
+    // },
+    {
+        title: 'Sport Analytik Centar',
+        body: '',
+        technology: 'Wordpress',
+        image: Sport,
+        path: 'https://sportanalytikcentar.rs/',
+        routerLink: false,
         // side: 'left'
     },
 ];
@@ -64,9 +95,7 @@ const HomePage = () => {
                 <div className='homepage-text-box'>
                     <p>I'm</p>
                     <h1>UROŠ</h1>
-                    <AnimationOnScroll animateIn='animation__animate animate__fadeInUp' animateOnce={true}>
-                        <h3>A software engineering student, currently a web systems developer.</h3>
-                    </AnimationOnScroll>
+                    <h3>A software engineering student, currently a frontend developer.</h3>
                 </div>
 
                 <div className="social-icons">
@@ -81,8 +110,8 @@ const HomePage = () => {
             </div>
             <div className="project-homepage">
                 {/*<h2>These Are My Projects</h2>*/}
-                <div className="cards">
-                    {cards.map(c => <ProjectCard {...c}  />)}
+                <div className="cards" >
+                    {cards.map(c => <ProjectCard {...c} key={c} />)}
                 </div>
             </div>
             <Footer/>

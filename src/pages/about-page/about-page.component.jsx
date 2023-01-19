@@ -14,7 +14,8 @@ import Spring from "../../assets/logo/spring.png";
 import Java from "../../assets/logo/java.png";
 import MqSql from "../../assets/logo/mysql.png";
 import Photoshop from "../../assets/logo/photoshop.png";
-
+import "animate.css/animate.min.css";
+import {AnimationOnScroll} from 'react-animation-on-scroll';
 
 const AboutPage = () => {
 
@@ -31,8 +32,12 @@ const AboutPage = () => {
                 </div>
                 <div className="about-me-info">
                     <div className="about-title">
-                        <h1>Hello again! ✌🏻</h1>
-                        <h1>I'm <span className="name">Uroš Milovanović</span></h1>
+                        <h1>Hello again!
+                            <AnimationOnScroll animateIn='animation__animate animate__shakeX' animateOnce={true}>
+                                <span>  ✌🏻  </span>
+                            </AnimationOnScroll>
+                        </h1>
+                        <h2>I'm <span className="name">Uroš Milovanović</span></h2>
                     </div>
                     <div className="about-text">
                         <p>I'm a software engineer who likes novelty and fun. I look at work as a challenge through
@@ -69,7 +74,7 @@ const AboutPage = () => {
                             </div>
                             <div className="e-cards">
                                 <div className="e-card">
-                                    <h1>December 2021 - Ongoing</h1>
+                                    <h1>December 2022 - Ongoing</h1>
                                     <p>Software Developer at <span>University of Metropolitan</span></p>
                                     <p>Full stack - Angular & Spring</p>
                                 </div>
@@ -99,7 +104,7 @@ const AboutPage = () => {
                                         <img src={Angular}/>
                                     </div>
                                     <div className="skill-title">
-                                        <h3>Angular <span>1 YEARS</span></h3>
+                                        <h3>Angular <span>3 YEARS</span></h3>
                                     </div>
                                 </div>
                                 <div className="skill">
@@ -107,7 +112,7 @@ const AboutPage = () => {
                                         <img src={HtmlCss}/>
                                     </div>
                                     <div className="skill-title">
-                                        <h3>HTML / CSS <span>3 YEARS</span></h3>
+                                        <h3>HTML / CSS <span>4 YEARS</span></h3>
                                     </div>
                                 </div>
                                 <div className="skill">
@@ -123,7 +128,7 @@ const AboutPage = () => {
                                         <img src={MqSql}/>
                                     </div>
                                     <div className="skill-title">
-                                        <h3>MySql <span>1 YEARS</span></h3>
+                                        <h3>MySql <span>1 YEAR</span></h3>
                                     </div>
                                 </div>
 
@@ -134,7 +139,7 @@ const AboutPage = () => {
                                         <img src={ReactLogo}/>
                                     </div>
                                     <div className="skill-title">
-                                        <h3>React <span>6 MONTHS</span></h3>
+                                        <h3>React <span>1 YEAR</span></h3>
                                     </div>
                                 </div>
                                 <div className="skill">
@@ -142,7 +147,7 @@ const AboutPage = () => {
                                         <img src={Spring}/>
                                     </div>
                                     <div className="skill-title">
-                                        <h3>Spring <span>3 MONTHS</span></h3>
+                                        <h3>Spring <span>1 YEAR</span></h3>
                                     </div>
                                 </div>
                                 <div className="skill">
@@ -158,7 +163,7 @@ const AboutPage = () => {
                                         <img src={Photoshop}/>
                                     </div>
                                     <div className="skill-title">
-                                        <h3>Photoshop <span>5 MONTHS</span></h3>
+                                        <h3>Photoshop <span>6 MONTHS</span></h3>
                                     </div>
                                 </div>
                             </div>
