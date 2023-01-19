@@ -40,10 +40,10 @@ const AboutPage = () => {
                         <h2>I'm <span className="name">Uroš Milovanović</span></h2>
                     </div>
                     <div className="about-text">
-                        <p>I'm a software engineer who likes novelty and fun. I look at work as a challenge through
-                            which I learn new things and improve myself. I am a very interesting person and in my
-                            company there is always fun and only positive energy. All my life I have been doing some
-                            kind of sport and I love to travel.
+                        <p>I'm a software engineer who likes new experiences and having fun. I look at work as a
+                            challenge through which I learn new things and improve myself. My friends would say I am a
+                            very interesting person and surrounding me is always positive energy. All my life I have
+                            been playing different kinds of sports, and my biggest passion is travelling.
                         </p>
                     </div>
                     <div className="about-social-icons">
@@ -177,14 +177,17 @@ const AboutPage = () => {
                             <h2>Faculty</h2>
                         </div>
                         <div className="faculty-text">
-                            <p><span>This is my way.</span> It all started when I entered the faculty in 2019. I
-                                finished the first year on time and
-                                then successfully enrolled in the second year. Where I received an offer to join the
-                                team as a faculty scholar, which I was overjoyed and accepted the offer. After that, I
-                                finished the second year also on time and am currently a third year student. In addition
-                                to graduating from the faculty as an ordinary student, I have two years of work
-                                experience behind me. That experience helped me a lot to learn new technologies and how
-                                work in companies and work with clients works.
+                            <p><span>This is my journey.</span> It all started when I entered the faculty in 2019. I
+                                finished the first year on schedule and
+                                then successfully enrolled in the second year. I then received an offer to join the
+                                team as a faculty scholar, which I was very excited about and of course accepted the
+                                offer immediately. After that, I
+                                finished the second and the third year also on schedule and I am currently a final year
+                                student. In addition
+                                to graduating from the faculty as a regular student, I have two years of work
+                                experience behind me. The experience I gained helped me a lot with learning new
+                                technologies and getting used to a working environment along with client cooperation.
+
                             </p>
                         </div>
                     </div>
