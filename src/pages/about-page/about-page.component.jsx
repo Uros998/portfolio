@@ -74,7 +74,7 @@ const AboutPage = () => {
                                     <p>Full stack - Angular & Spring</p>
                                 </div>
                                 <div className="e-card">
-                                    <h1>Avgust 2020 - December 2021</h1>
+                                    <h1>August 2020 - December 2021</h1>
                                     <p>Software Developer at <span>University of Metropolitan</span></p>
                                     <p>Frontend - Angular</p>
                                 </div>
