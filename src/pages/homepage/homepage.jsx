@@ -7,8 +7,8 @@ import linkedin from "../../assets/linkedin.png";
 import IsumImage from "../../assets/mockup/isum-mockup-1.png";
 import Etilen from "../../assets/mockup/etilen.png";
 import LibraLab from "../../assets/mockup/libra-lab.png";
-// import Bump from "../../assets/mockup/bump.png";
-import Sport from "../../assets/mockup/sport-analitik.psd";
+import Bump from "../../assets/mockup/bump.png";
+// import Sport from "../../assets/mockup/sport-analitik.psd";
 import IST from "../../assets/mockup/IST-card.png";
 import ProjectCard from "../../component/project-card/project-card.component";
 import Footer from "../../component/footer/footer.component";
@@ -51,24 +51,24 @@ const cards = [
         routerLink: false,
         // side: 'left'
     },
-    // {
-    //     title: 'Bump-Software',
-    //     body: '',
-    //     technology: 'React',
-    //     image: Bump,
-    //     path: 'https://bump-software.com/',
-    //     routerLink: false,
-    //     // side: 'left'
-    // },
     {
-        title: 'Sport Analytik Centar',
+        title: 'Bump-Software',
         body: '',
-        technology: 'Wordpress',
-        image: Sport,
-        path: 'https://sportanalytikcentar.rs/',
+        technology: 'React',
+        image: Bump,
+        path: 'https://bump-software.com/',
         routerLink: false,
         // side: 'left'
     },
+    // {
+    //     title: 'Sport Analytik Centar',
+    //     body: '',
+    //     technology: 'Wordpress',
+    //     image: Sport,
+    //     path: 'https://sportanalytikcentar.rs/',
+    //     routerLink: false,
+    //     // side: 'left'
+    // },
 ];
 
 const HomePage = () => {

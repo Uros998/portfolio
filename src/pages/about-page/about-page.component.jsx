@@ -74,7 +74,7 @@ const AboutPage = () => {
                             </div>
                             <div className="e-cards">
                                 <div className="e-card">
-                                    <h1>December 2022 - Ongoing</h1>
+                                    <h1>December 2021 - Ongoing</h1>
                                     <p>Software Developer at <span>University of Metropolitan</span></p>
                                     <p>Full stack - Angular & Spring</p>
                                 </div>
@@ -120,7 +120,7 @@ const AboutPage = () => {
                                         <img src={Javascript}/>
                                     </div>
                                     <div className="skill-title">
-                                        <h3>Javascript <span>2 YEARS</span></h3>
+                                        <h3>Javascript <span>3 YEARS</span></h3>
                                     </div>
                                 </div>
                                 <div className="skill">
@@ -128,7 +128,7 @@ const AboutPage = () => {
                                         <img src={MqSql}/>
                                     </div>
                                     <div className="skill-title">
-                                        <h3>MySql <span>1 YEAR</span></h3>
+                                        <h3>MySql <span>2 YEARS</span></h3>
                                     </div>
                                 </div>
 
@@ -147,7 +147,7 @@ const AboutPage = () => {
                                         <img src={Spring}/>
                                     </div>
                                     <div className="skill-title">
-                                        <h3>Spring <span>1 YEAR</span></h3>
+                                        <h3>Spring <span>2 YEARS</span></h3>
                                     </div>
                                 </div>
                                 <div className="skill">
@@ -163,7 +163,7 @@ const AboutPage = () => {
                                         <img src={Photoshop}/>
                                     </div>
                                     <div className="skill-title">
-                                        <h3>Photoshop <span>6 MONTHS</span></h3>
+                                        <h3>Photoshop <span>10 MONTHS</span></h3>
                                     </div>
                                 </div>
                             </div>

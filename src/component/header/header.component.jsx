@@ -34,7 +34,7 @@ const Header = () => {
                 <ul className="centre-text bold-text options">
                     <li><NavLink activeClassName="selected" className='option' to='/'>Home</NavLink></li>
                     <li><NavLink activeClassName="selected" className='option' to='/about'>About</NavLink></li>
-                    <li><NavLink activeClassName="selected" className='option' to='/contact'>Resume</NavLink></li>
+                    {/*<li><NavLink activeClassName="selected" className='option' to='/contact'>Resume</NavLink></li>*/}
                 </ul>
             </div>
         </nav>
